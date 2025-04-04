@@ -7,8 +7,8 @@ This will print out the result in stdout.
 """
 
 from rse_string_tools.enums import Version, Language
-from rse_string_tools.string_encoder import to_string
-from rse_string_tools.string_decoder import to_bytes
+from rse_string_tools.string_decoder import to_string
+from rse_string_tools.string_encoder import to_bytes
 
 
 def main():
