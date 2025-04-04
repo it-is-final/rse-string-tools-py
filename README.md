@@ -1,4 +1,10 @@
 # rse-string-tools
+
+> [!IMPORTANT]
+> This is just a proof-of-concept, I plan to implement this in both
+> `rse-text-decoder` and maybe as a Java/C#/whatever other language
+> package.
+
 This is a Python implementation of the character encoding found
 in the generation III Pokémon games.
 
