@@ -169,4 +169,4 @@ def build_character_map_r(version: Version, langauge: Language) -> dict[str, int
 
 def to_bytes(data: str, version: Version, language: Language):
     character_map = build_character_map_r(version, language)
-    return [character_map[c] for c in data.replace('�', ' ')]
+    return bytes(character_map[c] for c in data.replace('�', ' '))

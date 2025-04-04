@@ -170,6 +170,7 @@ def build_character_map(version: Version, langauge: Language) -> dict[int, str]:
         character_map[0x63] = '�'
     return character_map
 
+
 def to_string(data: Iterable[int], version: Version, language: Language):
     character_map = build_character_map(version, language)
     return ''.join(character_map[b] for b in data)
