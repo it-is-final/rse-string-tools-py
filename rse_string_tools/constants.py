@@ -1,7 +1,7 @@
-from enum import IntEnum
+from enum import Enum
 
 
-class Version(IntEnum):
+class Version(Enum):
     SAPPHIRE = 1
     RUBY = 2
     EMERALD = 3
@@ -9,7 +9,7 @@ class Version(IntEnum):
     LEAFGREEN = 5
 
 
-class Language(IntEnum):
+class Language(Enum):
     JPN = 1
     ENG = 2
     FRA = 3
